@@ -2,7 +2,7 @@ name: "leetcode-question-today"
 
 on:
   schedule:
-    - cron: "0 3 * * *" # 3 + 8 = 10 北京时间上午 11 点
+    - cron: "45 1 * * *" # 1 + 8 = 9 北京时间上午 9 点 45，因为观察到触发时间会有15分钟延迟，10点会准时通知
   workflow_dispatch:
 
 jobs:
